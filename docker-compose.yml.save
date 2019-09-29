@@ -12,7 +12,6 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: 123
             MYSQL_DATABASE: COURSES-DB
-            MYSQL_USER: sa
-            MYSQL_PASSWORD: 123
-        ports:
-            - "3306:3306"
+            MYSQL_USER: saMYSQL_PASSWORD: 123
+		ports:
+			- "3306:3306"
